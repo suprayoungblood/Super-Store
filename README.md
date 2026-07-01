@@ -1,8 +1,8 @@
 # Topic 9: Data Analytics Using Python (Superstore)
 
 A small, modular pipeline that loads the Kaggle **Superstore** dataset, runs
-basic analysis with **pandas**, visualizes total sales by region with
-**Matplotlib**, and generates a 7-slide **PowerPoint** report.
+basic analysis with **pandas**, and visualizes total sales by region with
+**Matplotlib**. It can optionally generate a **PowerPoint** report.
 
 ## Project structure
 
@@ -48,8 +48,8 @@ print('Matplotlib version:', matplotlib.__version__)"
 ## Run
 
 ```bash
-python main.py                     # analysis + chart  (Steps 2-7)
-python main.py --deck              # also build the PowerPoint report (Step 8)
+python main.py                     # run the analysis and build the chart
+python main.py --deck              # also build the optional PowerPoint report
 python main.py --show              # also display the chart interactively
 python main.py --deck --name "Pariss Youngblood" \
   --course "Intro to Programming" --instructor "Prof. Smith"
@@ -77,7 +77,6 @@ pytest
 | 4. Basic analysis (totals, averages) | `analysis.py` |
 | 5. Visualization (sales by region) | `visualization.py` |
 | 6. Run & evaluate | `python main.py` |
-| 7. Report out (7-slide deck) | `slides.py`, `deck.py` |
 
 The dataset ships in Windows-1252 encoding, so `data_loader.py` tries UTF-8
 first and falls back automatically, so no manual re-saving is required.
