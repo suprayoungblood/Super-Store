@@ -1,0 +1,13 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# OS noise
+.DS_Store
+
+# Office temp/lock files (e.g. ~$topic9_report.pptx)
+~$*
