@@ -1,4 +1,4 @@
-# Topic 9 — Data Analytics Using Python (Superstore)
+# Topic 9: Data Analytics Using Python (Superstore)
 
 A small, modular pipeline that loads the Kaggle **Superstore** dataset, runs
 basic analysis with **pandas**, visualizes total sales by region with
@@ -57,8 +57,8 @@ python main.py --deck --name "Pariss Youngblood" \
 
 Outputs are written to `reports/`:
 
-- `sales_by_region.png` — the "Total Sales by Region" bar chart
-- `topic9_report.pptx` — the 7-slide report (with `--deck`)
+- `sales_by_region.png`: the "Total Sales by Region" bar chart
+- `topic9_report.pptx`: the 7-slide report (with `--deck`)
 
 ## Tests
 
@@ -80,4 +80,4 @@ pytest
 | 7. Report out (7-slide deck) | `slides.py`, `deck.py` |
 
 The dataset ships in Windows-1252 encoding, so `data_loader.py` tries UTF-8
-first and falls back automatically — no manual re-saving required.
+first and falls back automatically, so no manual re-saving is required.

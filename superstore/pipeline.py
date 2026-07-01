@@ -1,7 +1,7 @@
 """Orchestration: wire the modules into the end-to-end analytics workflow.
 
-:func:`run_pipeline` performs the activity in order — load, analyze, report,
-visualize, and optionally build the PowerPoint deck — delegating each step to a
+:func:`run_pipeline` performs the activity in order (load, analyze, report,
+visualize, and optionally build the PowerPoint deck), delegating each step to a
 focused module so this file stays a thin coordinator.
 """
 

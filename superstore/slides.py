@@ -1,6 +1,6 @@
 """Deck content as plain data (no PowerPoint dependency).
 
-This module decides *what* goes on each of the seven slides — pulling live
+This module decides *what* goes on each of the seven slides, pulling live
 numbers from the :class:`~superstore.analysis.AnalysisResult` so the reflection
 answers reference the real dataset. :mod:`superstore.deck` decides *how* to
 render these specs into a ``.pptx`` file.

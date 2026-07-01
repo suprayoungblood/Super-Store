@@ -11,3 +11,6 @@ __pycache__/
 
 # Office temp/lock files (e.g. ~$topic9_report.pptx)
 ~$*
+
+# Generated PowerPoint decks (regenerate with: python main.py --deck)
+reports/*.pptx
